@@ -102,7 +102,6 @@
 	inhand_icon_state = "hardsuit0-ert_security"
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/ert/cadet
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
-	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/head/helmet/space/hardsuit/ert/cadet
 	name = "paranormal response team helmet"
@@ -112,8 +111,6 @@
 	icon_state = "hardsuit-ert-cadet"
 	inhand_icon_state = "ert_bni"
 	hardsuit_type = "ert_cadet"
-	slowdown = 0.8
+	slowdown = 0.5
 	strip_delay = 130
 	light_range = 0
-	resistance_flags = FIRE_PROOF
-	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
