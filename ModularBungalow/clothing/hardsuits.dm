@@ -70,7 +70,7 @@
 	armor = list(MELEE = 25, BULLET = 5, LASER = 10, ENERGY = 15, BOMB = 50, BIO = 100, RAD = 40, FIRE = 30, ACID = 75, WOUND = 5)
 
 /obj/item/clothing/suit/space/hardsuit/ert/bni
-	name = "BNI Agent Hardsuiit"
+	name = "BNI Agent Hardsuit"
 	desc = "A hardsuit designed for BNI Agents looking for a more covert suit, designed with mobility yet protection in mind."
 	worn_icon = 'ModularBungalow/clothing/worn/coatw.dmi'
 	icon = 'ModularBungalow/clothing/icons/coat.dmi'
@@ -81,7 +81,7 @@
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/head/helmet/space/hardsuit/ert/bni
-	name = "paranormal response team helmet"
+	name = "BNI Hardsuit Helmet"
 	desc = "A hlemet for a hardsuit designed for BNI Agents looking for a more covert suit, designed with mobility yet protection in mind."
 	worn_icon = 'ModularBungalow/clothing/worn/helmetw.dmi'
 	icon = 'ModularBungalow/clothing/icons/helmet.dmi'
@@ -94,23 +94,22 @@
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 
 /obj/item/clothing/suit/space/hardsuit/ert/cadet
-	name = "BNI Agent Hardsuiit"
+	name = "ERT Cadet Hardsuit"
 	desc = "An older version of the NT Military Hardsuit, this suit lacks the modern servos and hydraulics of the current version, making it significantly slower. It is now used by cadets for training excersises."
 	worn_icon = 'ModularBungalow/clothing/worn/coatw.dmi'
 	icon = 'ModularBungalow/clothing/icons/coat.dmi'
 	icon_state = "ert_cadet"
 	inhand_icon_state = "hardsuit0-ert_security"
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/ert/cadet
-	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
+	slowdown = 0.5
 
 /obj/item/clothing/head/helmet/space/hardsuit/ert/cadet
-	name = "paranormal response team helmet"
+	name = "ERT Cadet Hardsuit Helmet"
 	desc = "An earlier version of the NT Military Hardsuit, this helmet lacks a flashlight, now used by cadets for training exercises."
 	worn_icon = 'ModularBungalow/clothing/worn/helmetw.dmi'
 	icon = 'ModularBungalow/clothing/icons/helmet.dmi'
 	icon_state = "hardsuit-ert-cadet"
 	inhand_icon_state = "ert_bni"
 	hardsuit_type = "ert_cadet"
-	slowdown = 0.5
 	strip_delay = 130
 	light_range = 0
