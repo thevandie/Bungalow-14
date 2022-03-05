@@ -36,3 +36,13 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 8, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/consumable/nutriment = 4)
 	foodtypes = MEAT | FRIED | BREAKFAST
 	tastes = list("egg" = 4, "meat" = 4)
+
+/obj/item/food/donkpocket/waffle
+	name = "\improper Pocket-waffle"
+	desc = "The food of choice for the seasoned Gorlex operative."
+	icon_state = "pocketwaffle"
+	icon = 'ModularBungalow/bungalow_food_and_drinks/icons/food.dmi'
+
+/obj/item/food/donkpocket/waffle/warm
+	name = "warm Pocket-waffle"
+	desc = "The heated food of choice for the seasoned Gorlex operative."
