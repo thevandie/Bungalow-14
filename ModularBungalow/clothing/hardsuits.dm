@@ -100,7 +100,7 @@
 	icon = 'ModularBungalow/clothing/icons/coat.dmi'
 	icon_state = "ert_cadet"
 	inhand_icon_state = "hardsuit0-ert_security"
-	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/ert/cadet
+	helmettype = /obj/item/clothing/suit/space/hardsuit/swat/ert/cadet
 	slowdown = 0.5
 
 /obj/item/clothing/suit/space/hardsuit/swat/ert/cadet
