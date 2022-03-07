@@ -108,7 +108,8 @@
 	desc = "An earlier version of the NT Military Hardsuit, this helmet lacks a flashlight, now used by cadets for training exercises."
 	worn_icon = 'ModularBungalow/clothing/worn/helmetw.dmi'
 	icon = 'ModularBungalow/clothing/icons/helmet.dmi'
-	icon_state = "hardsuit-ert-cadet"
+	icon_state = "hardsuit0-ert-cadet"
 	inhand_icon_state = "ert_bni"
 	hardsuit_type = "ert_cadet"
+	strip_delay = 130
 	actions_types = list()
