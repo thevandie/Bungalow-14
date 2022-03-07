@@ -103,7 +103,7 @@
 	helmettype = /obj/item/clothing/suit/space/hardsuit/ert/cadet
 	slowdown = 0.5
 
-/obj/item/clothing/suit/space/hardsuit/ert/cadet
+/obj/item/clothing/head/helmet/space/hardsuit/ert/cadet
 	name = "ERT Cadet Hardsuit Helmet"
 	desc = "An earlier version of the NT Military Hardsuit, this helmet lacks a flashlight, now used by cadets for training exercises."
 	worn_icon = 'ModularBungalow/clothing/worn/helmetw.dmi'
