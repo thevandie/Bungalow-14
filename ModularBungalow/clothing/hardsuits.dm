@@ -103,7 +103,7 @@
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/ert/cadet
 	slowdown = 0.5
 
-/obj/item/clothing/head/helmet/space/hardsuit/ert/cadet
+/obj/item/clothing/suit/space/hardsuit/swat/ert/cadet
 	name = "ERT Cadet Hardsuit Helmet"
 	desc = "An earlier version of the NT Military Hardsuit, this helmet lacks a flashlight, now used by cadets for training exercises."
 	worn_icon = 'ModularBungalow/clothing/worn/helmetw.dmi'
@@ -112,4 +112,4 @@
 	inhand_icon_state = "ert_bni"
 	hardsuit_type = "ert_cadet"
 	strip_delay = 130
-	light_range = 0
+	armor = list(MELEE = 65, BULLET = 50, LASER = 50, ENERGY = 60, BOMB = 50, BIO = 100, RAD = 100, FIRE = 80, ACID = 80)
